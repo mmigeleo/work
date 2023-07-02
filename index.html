@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(33, 33, 33);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .topbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 49px;
+            background-color: rgb(14, 13, 13);
+
+        }
+
+        .n1 {
+            height: 49px;
+            width: 199px;
+            background-image: url(youtube1.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .n2 input[type=text] {
+            margin-top: 6px;
+            padding: 6px;
+            font-size: 17px;
+            height: 49;
+            width: 470;
+            border: 1px solid;
+            border: none;          
+            border-bottom-left-radius: 25px;
+            border-top-left-radius: 25px;
+
+        }
+
+        .n3 {
+            width: 118px;
+            height: 49px;
+            background-image: url(youtube3.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+
+        .n4 {
+            width: 157px;
+            height: 49px;
+            background-image: url(youtube2.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="box n1"></div>
+        <div class="box n2"><input type="text" placeholder="Search..."></div>
+        <div class="box n3"></div>
+        <div class="box n4"></div>
+    </div>
+
+</body>
+
+</html>
